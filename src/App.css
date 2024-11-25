@@ -1,0 +1,290 @@
+.company-laws h1 {
+  color: #2a2941;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 41.6px;
+}
+
+.company-laws p {
+  font-size: 16px;
+  font-weight: 450;
+  line-height: 20.8px;
+  color: #b3b3b3;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.form-wrapper {
+  background-color: #fff;
+  max-width: 778px;
+  width: 100%;
+  padding: 32px 38px 32px 38px;
+  gap: 42px;
+  border-radius: 24px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.input-style {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+  width: 100%;
+}
+
+.input-style:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+#companyName {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 450;
+  line-height: 17.71px;
+}
+
+.company {
+  font-size: 14px;
+  font-weight: 450;
+  line-height: 17.71px;
+  margin-bottom: 20px;
+}
+
+.phoneNumber {
+  font-size: 14px;
+  font-weight: 450;
+  line-height: 17.71px;
+  margin-bottom: 20px;
+}
+
+.email {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 450;
+  line-height: 17.71px;
+}
+
+.icons {
+  display: flex;
+  gap: 44px;
+}
+
+.social-links .icons {
+  width: 40px;
+  cursor: pointer;
+}
+
+.icons img {
+  width: 60px;
+  height: 60px;
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid #000;
+  margin-top: 8px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  text-align: center;
+}
+
+.modal-content input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.modal-content input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top: 18px;
+}
+
+button {
+  background-color: #5361e4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 18px;
+}
+
+.social-links h2 {
+  font-size: 14px;
+  font-weight: 450;
+  line-height: 17.71px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.country {
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.select-country {
+  width: 341px;
+  height: 56px;
+  padding: 18px;
+  border-radius: 16px;
+  border: 1px solid #e4e4e4;
+}
+
+.selects {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.select-country,
+.city-select {
+  cursor: pointer;
+}
+
+.location-live {
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+#location {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+#location:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+#desc {
+  width: 702px;
+  height: 148px;
+  padding: 18px;
+  gap: 10px;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+#saqlash-tugma {
+  width: 100%;
+  height: 60px;
+  padding: 18px 24px;
+  gap: 10px;
+  border-radius: 16px;
+  background-color: #5361e4;
+  transition: 0.3s;
+}
+
+#saqlash-tugma:hover {
+  background-color: #fff;
+  border: 2px solid #5361e4;
+  color: #000;
+  transition: 0.3s;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.card h3 {
+  margin: 0;
+  color: #333;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+#employeers {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+#employeers:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
